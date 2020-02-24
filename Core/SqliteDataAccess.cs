@@ -21,7 +21,7 @@ namespace DatabaseStorageSystem
             }
         }
 
-        public static void SaveProduct(ProductModel product)
+        public static void SaveProduct(ProductModel product) 
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
